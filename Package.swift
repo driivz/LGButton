@@ -3,9 +3,9 @@ import PackageDescription
 
 let package = Package(
     name: "LGButton",
-    pkg.platforms = [
+    platforms: [
         .iOS(.v9)
-    ]
+    ],
     products: [
         .library(name: "LGButton", targets: ["LGButton"])
     ],
